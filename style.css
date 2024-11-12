@@ -1,0 +1,113 @@
+.navbar li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color:#484848;
+    list-style-type: none;
+    padding-top: 27px;
+
+
+}
+.navbar {
+justify-content: space-between;
+display: flex;
+}
+
+.navbar li:hover{
+
+color: #49BBBD;
+cursor: pointer;
+
+}
+.navbar img:hover{
+    cursor: pointer;
+}
+
+.navlist{
+display: flex;
+gap: 40px;
+}
+
+
+.sctn{
+margin: 40px 55px;
+
+}
+
+.mainheadH h1 {
+
+color: #2B2F2E;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 48px;
+font-weight: 700;
+
+}
+.mainheadH p {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: #646464;
+}
+
+.mainheadH {
+width: 670px;
+position: relative;
+
+}
+
+.mainbutton1 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #49BBBD;
+    width: 157px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.mainbutton2{
+    color: #49babc;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eafff9;
+    width: 157px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+
+
+}
+
+.modelpng 
+{
+    position: relative;
+}
+
+.mainpage{
+    justify-content: space-between;
+    display: flex;
+}
+ .maincard1{
+position: absolute;
+left:400px;
+bottom: 120px;
+ }
+
+ .maincard2{
+position: absolute;
+right: 380px;
+top: 190px;
+ }
+
+ .mainlist{
+    position: absolute; 
+bottom: 54px;}
+
+.collab{
+    position: absolute;
+  right: 100px;
+}
