@@ -1,0 +1,215 @@
+.navbar li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color:#484848;
+    list-style-type: none;
+    padding-top: 27px;
+
+
+}
+.navbar {
+justify-content: space-between;
+display: flex;
+}
+
+.navbar li:hover{
+
+color: #49BBBD;
+cursor: pointer;
+
+}
+.navbar img:hover{
+    cursor: pointer;
+}
+
+.navlist{
+display: flex;
+gap: 40px;
+}
+
+
+.sctn{
+margin: 40px 55px;
+
+}
+
+.mainheadH h1 {
+
+color: #2B2F2E;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 48px;
+font-weight: 700;
+
+}
+.mainheadH p {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: #646464;
+}
+
+.mainheadH {
+width: 670px;
+position: relative;
+
+
+}
+
+.mainbutton1 {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #49BBBD;
+    width: 157px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+.mainbutton2{
+    color: #49babc;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eafff9;
+    width: 157px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+
+
+}
+
+.modelpng 
+{
+    position: relative;
+}
+
+.mainpage{
+    justify-content: space-between;
+    display: flex;
+}
+ .maincard1{
+position: absolute;
+left:400px;
+bottom: 120px;
+ }
+
+ .maincard2{
+position: absolute;
+right: 380px;
+top: 190px;
+ }
+
+ .mainlist{
+display: flex;
+gap: 42px;
+position: absolute;
+right: 234px;
+}
+
+
+.mainul{
+display: flex;
+align-items: center;
+list-style-type: none;
+color: #1D2939B2;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.collab_block{
+margin: 20px 40px;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+
+.collab_block_heading{
+    color: #2B2F2E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.collab_block_searchbox{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.collab_block_input{
+    width: 1000px;
+    height: 52px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ACA5A5;
+        padding-left: 15px;
+        border: none;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.collab_block_button {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #49BBBD;
+    width: 128px;
+    height: 54px;
+    border-radius: 8px;
+    border: none;
+
+
+}
+
+
+.collab_block_subhead {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+font-size: 24px;
+color: #2B2F2E;
+text-align: center;
+}
+
+.collab_block_para {
+    text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size: 18px;
+color: #646464;
+
+}
+
+.collab_block_chips_list{
+display: flex;
+gap: 20px;
+}
+
+.collab_block_chips{
+display: flex;
+border: 1px solid #ECDDDD ;
+border-radius: 8px;
+align-items: center;
+gap: 15px;
+padding-left: 30px;
+
+}
+
+.collab_block_chips_content{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+font-size: 25px;
+color: #453e3e;
+
+}
+
+.collab_block_chips_icon{
+
+    width: 30px;
+    height: 30px;
+}
+
