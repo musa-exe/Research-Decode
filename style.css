@@ -428,3 +428,72 @@ text-align: center;
     border: none;
 align-content: center;
 }
+
+.collaboration_card_profile{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding-left: 40px;   
+}
+
+.collaboration_card_profile h3{
+color: #2B2F2E;
+font-size: 20px;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.collaboration_card
+{
+    box-shadow: 0 4px 10px rgba(73,187,189,0.4);
+    width: 461px;
+    height: 421px;
+
+    border-radius: 20px;
+}
+.collaboration_block_heading{ 
+     color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    
+
+
+}
+
+.collaboration_card h2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2b2f2e;
+    padding-left: 40px;
+}
+
+.collaboration_card p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #696984;
+    padding-left: 40px;
+}
+
+.collaboration_card button{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #49BBBD;
+    width: 227px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 40px
+
+}
+.collaboration_card_list{
+display: flex;
+gap: 30px;
+
+}
