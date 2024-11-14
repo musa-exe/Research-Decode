@@ -535,3 +535,66 @@ gap: 30px;
     border-radius: 8px;
     border: none;
 }
+
+.faqs_block_head{
+text-align: center;
+
+}
+
+.faqs_block_head h2{
+    color: #2B2F2E;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+}
+
+.faqs_block_head p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #646464;
+}
+
+.faqs_block_card{
+    box-shadow: 0 1px 6px rgba(73,187,189,0.2);
+    width: 600px;
+    height: 175px;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
+.faqs_block_card h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #2b2f2e;
+    padding-left: 40px;
+}
+
+.faqs_block_card p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #696984;
+    padding-left: 40px;
+}
+
+.faqs_block_card_primary_list{
+flex-direction: column;
+display: flex;
+gap: 5px;
+}
+
+.faqs_block_card_secondary_list{
+flex-direction: cn;
+gap: 5px;
+display: flex;
+}
+
+.faqs_block_card_list{
+display: flex;
+align-items: center;
+
+}
