@@ -213,3 +213,218 @@ color: #453e3e;
     height: 30px;
 }
 
+.course_heading {
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+
+.course_heading h3{
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+font-size: 30px;
+}
+
+.course_heading h4 {
+color: #49BBBD;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+font-size: 20px;
+
+}
+
+.course_card{
+    width: 374px;
+    height: 617px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 20px 20px;
+    box-shadow: 0 4px, 8px rgba(0, 0, 0, 1);
+
+}
+
+.course_card_img{
+align-items: center;
+margin: 10px 20px;
+
+
+}
+
+.course_card_features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+.course_card_feature{
+display: flex;
+align-items: center;
+gap: 9px;
+
+}
+
+.course_card_feature p{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+font-size: 14px;
+color: #646464;
+}
+
+.course_card_feature img {
+width: 21px;
+height: 21px;
+}
+
+.course_card h2{
+color: #252641;
+font-size: 24px;
+font-weight: 500;
+font-family: Arial, Helvetica, sans-serif;
+align-items: center;
+}
+
+.course_card_desc{
+font-family: Arial, Helvetica, sans-serif;
+color: #696969;
+font-size: 18px;
+}
+
+.course_card_price{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.course_card_price img{
+    width: 44px;
+    height:44px;
+
+}
+.course_card_price h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.course_card_price h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: grey;
+    text-decoration: line-through;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.course_card_price h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #49BBBD;
+    font-size: 24px;
+}
+
+.course_card_money {
+display: flex;
+align-items: center;
+gap: 15px;
+
+}
+
+.course_card_profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+}
+
+.course_section{
+background-color:#dff2ff;
+padding: 40px 55px;
+}
+                                               
+.course_card_list{
+    display: flex;
+    gap: 15px;
+}
+
+.learn_block {
+justify-content: space-between;
+display: flex;
+align-items: center;
+}
+.learn_block_head {
+    display: flex;
+    flex-direction: column;
+}
+
+.learn_block_img{
+    width: 700px;
+    height: 468px;
+}
+
+.learn_block_head h3{
+
+    font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+font-size: 24px;
+color: #2B2F2E;
+}
+.learn_block_head p {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #646464;
+}
+
+.services_section{
+
+    background-image: url(bgg.png);
+    width: 1350px;
+    height: 600px;
+    position: relative;
+}
+
+.services_block{
+background-color: rgba(73,187,189,0.9);
+width: 955px;
+height: 419px;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin-left: 200px;
+align-content: center;
+position: absolute;
+top: 100px;
+}
+.services_block h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+text-align: center;
+}
+
+.services_block p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.services_block button{
+
+    color: #2BA7A9;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    width: 213px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+align-content: center;
+}
