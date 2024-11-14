@@ -497,3 +497,41 @@ display: flex;
 gap: 30px;
 
 }
+
+.labs_block{
+    background-color: #54BFC1;
+    width: 1355px;
+    height: 552px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.labs_block_head {
+    padding-top: 50px;
+    padding-right: 200px;
+}
+.labs_block_head h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #ffffff;
+
+}
+
+.labs_block_head p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.labs_block_head button{
+    color: #2BA7A9;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    width: 213px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+}
